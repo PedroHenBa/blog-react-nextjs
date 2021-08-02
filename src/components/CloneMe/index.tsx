@@ -3,7 +3,7 @@ import * as Styled from './styles';
 export const CloneMe = ({ footerHtml }: CloneMeProps) => {
   return (
     <Styled.Container>
-      {footerHtml}
+      <h1>{footerHtml}</h1>
     </Styled.Container>
   );
 };

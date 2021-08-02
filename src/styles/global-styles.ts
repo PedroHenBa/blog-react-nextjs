@@ -18,11 +18,14 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.fonts.family.default};
     font-size: 1.6rem;
     overflow-x: hidden;
+    color: ${({ theme }) => theme.colors.darkText};
   }
 
   h1, h2, h3, h4, h5, h6{
-    font-family: ${({ theme }) => theme.fonts.family.secondary};
+    font-family: ${({ theme }) => theme.fonts.family.default};
     margin: ${({ theme }) => theme.spacing.big} 0;
+    font-weight: 800;
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   p {
@@ -35,7 +38,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: ${({ theme }) => theme.colors.secondaryColor};
+    color: ${({ theme }) => theme.colors.secondary};
   }
 
   .table {

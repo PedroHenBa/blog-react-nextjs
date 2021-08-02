@@ -3,4 +3,3 @@ export default {
   siteName: 'Pedro',
   defaultSlug: 'landing-page',
 };
-
