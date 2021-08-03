@@ -11,13 +11,11 @@ export const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    overflow-x: hidden;
   }
 
   body {
     font-family: ${({ theme }) => theme.fonts.family.default};
     font-size: 1.6rem;
-    overflow-x: hidden;
     color: ${({ theme }) => theme.colors.darkText};
   }
 
@@ -27,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 800;
     color: ${({ theme }) => theme.colors.primary};
   }
-
+  /*
   p {
     margin: ${({ theme }) => theme.spacing.medium} 0;
   }
@@ -45,5 +43,5 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
     overflow-y: auto ;
   }
-
+  */
 `;
