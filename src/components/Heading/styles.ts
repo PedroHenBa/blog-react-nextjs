@@ -30,6 +30,7 @@ const titleCase = (uppercase: boolean) => css`
 export const Title = styled.h1<Pick<HeadingProps, 'colorDark' | 'size' | 'uppercase'>>`
   ${({ theme, colorDark, size, uppercase }) => css`
     color: ${colorDark ? theme.colors.primary : theme.colors.white};
+    line-height: 1.2;
     ${titleSizes[size](theme)};
     ${titleCase(uppercase)};
   `}

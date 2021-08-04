@@ -4,30 +4,22 @@ import { screen } from '@testing-library/react';
 
 describe('<MenuLink />', () => {
   it('should render a link', () => {
-    renderTheme(<MenuLink link="https://www.google.com.br/">children</MenuLink>);
+    renderTheme(<MenuLink link="https://www.google.com.br/" text="children" />);
     expect(screen.getByRole('link', { name: 'children' })).toHaveAttribute('target', '_self');
   });
 
   it('should render a link', () => {
-    renderTheme(
-      <MenuLink link="https://www.google.com.br/" newTab={true}>
-        children
-      </MenuLink>,
-    );
+    renderTheme(<MenuLink link="https://www.google.com.br/" text="children" newTab={true} />);
     expect(screen.getByRole('link', { name: 'children' })).toHaveAttribute('target', '_blank');
   });
 
   it('should render internal link from next', () => {
-    renderTheme(
-      <MenuLink link="/oi" newTab={true}>
-        children
-      </MenuLink>,
-    );
+    renderTheme(<MenuLink link="/oi" text="children" newTab={true} />);
     expect(screen.getByRole('link', { name: 'children' })).toHaveAttribute('target', '_blank');
   });
 
   it('should render a link', () => {
-    const { container } = renderTheme(<MenuLink link="https://www.google.com.br/">children</MenuLink>);
+    const { container } = renderTheme(<MenuLink link="https://www.google.com.br/" text="children" />);
     expect(container.firstChild).toMatchInlineSnapshot(`
 .c0 {
   display: block;

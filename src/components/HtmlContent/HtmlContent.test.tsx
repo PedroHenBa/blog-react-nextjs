@@ -1,7 +1,6 @@
 import { HtmlContent } from './index';
 import { renderTheme } from '../../styles/render-theme';
 import { screen } from '@testing-library/react';
-import { theme } from '../../styles/theme';
 
 describe('<HtmlContent />', () => {
   it('should render HtmlContent component', () => {
@@ -13,18 +12,18 @@ describe('<HtmlContent />', () => {
   it('should render Text with correct font size', () => {
     renderTheme(<HtmlContent html={'children'} />);
     const p = screen.getByText('children');
-    expect(p).toHaveStyle({ 'font-size': theme.fonts.sizes.medium });
+    expect(p).toHaveStyle({ 'font-size': 'calc(2.4rem + 0.2rem)' });
   });
 
   it('should match snapchat', () => {
     const { container } = renderTheme(<HtmlContent html={'children'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
 .c0 {
-  font-size: 2.4rem;
+  font-size: calc(2.4rem + 0.2rem);
 }
 
 .c0 p {
-  margin: 4.0rem 0;
+  margin: 3.2rem 0;
 }
 
 .c0 a,
@@ -40,14 +39,29 @@ describe('<HtmlContent />', () => {
   filter: brightness(70%);
 }
 
+.c0 code {
+  font-family: monospace;
+  color: #dc143c;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
 .c0 pre {
   background: #000000;
   padding: 2.4rem;
   color: #FFFFFF;
   font-family: monospace;
+  margin: 2.4rem 0;
   width: 100%;
   overflow-x: auto;
   font-size: 1.6rem;
+}
+
+.c0 pre code {
+  color: inherit;
+  background: inherit;
 }
 
 .c0 img {
@@ -57,7 +71,7 @@ describe('<HtmlContent />', () => {
 .c0 .image {
   background: #DDDDDD;
   line-height: 0;
-  margin: 4.0rem 0;
+  margin: 2.4rem 0;
 }
 
 .c0 .image figcaption {
@@ -70,12 +84,12 @@ describe('<HtmlContent />', () => {
 .c0 .image-style-side {
   max-width: 50%;
   float: right;
-  margin: 1.6rem;
+  margin: 2.4rem 0;
 }
 
 .c0 ul,
 .c0 ol {
-  margin: 4.0rem;
+  margin: 2.4rem 4.0rem;
 }
 
 .c0 hr {
@@ -120,6 +134,16 @@ describe('<HtmlContent />', () => {
 
 .c0 table th.last {
   border-right: none;
+}
+
+.c0 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
 }
 
 @media (max-width:768px) {

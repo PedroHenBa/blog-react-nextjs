@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should match snapshot 1`] = `
+.c0 {
+  z-index: 2;
+  position: fixed;
+  color: #FFFFFF;
+  background: #000000;
+  width: 3rem;
+  height: 3rem;
+  top: 2.4rem;
+  color: #FFFFFF;
+  left: 0.5rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<a
+  aria-label="Open or close menu"
+  class="c0"
+  href="#"
+  title="Open or close menu"
+>
+  <svg
+    aria-hidden="true"
+    aria-label="Open menu"
+    class="c1"
+    fill="currentColor"
+    focusable="false"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 0h24v24H0V0z"
+      fill="none"
+    />
+    <path
+      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+    />
+  </svg>
+</a>
+`;

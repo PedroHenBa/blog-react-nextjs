@@ -17,6 +17,7 @@ export const Container = styled.div`
 export const Excerpt = styled.p`
   ${({ theme }) => css`
     margin: ${theme.spacing.medium} 0;
+    font-size: ${theme.spacing.medium};
   `}
 `;
 
