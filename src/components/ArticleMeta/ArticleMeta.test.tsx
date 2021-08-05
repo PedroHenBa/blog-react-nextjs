@@ -20,8 +20,13 @@ describe('<ArticleMeta />', () => {
     expect(screen.getByText('em 2 de mar. de 2021')).toHaveAttribute('datetime', props.createdAt);
   });
 
-  it('should render author and categories links', () => {
+  it('should match snapshot', () => {
     const { container } = renderTheme(<ArticleMeta {...props} />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('should match snapshot with no author and categories', () => {
+    const { container } = renderTheme(<ArticleMeta {...props} author={undefined} categories={undefined} />);
     expect(container.firstChild).toMatchSnapshot();
   });
 });
