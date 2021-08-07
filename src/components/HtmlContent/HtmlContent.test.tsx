@@ -12,14 +12,14 @@ describe('<HtmlContent />', () => {
   it('should render Text with correct font size', () => {
     renderTheme(<HtmlContent html={'children'} />);
     const p = screen.getByText('children');
-    expect(p).toHaveStyle({ 'font-size': 'calc(2.4rem + 0.2rem)' });
+    expect(p).toHaveStyle({ 'font-size': '2.4rem' });
   });
 
   it('should match snapchat', () => {
     const { container } = renderTheme(<HtmlContent html={'children'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
 .c0 {
-  font-size: calc(2.4rem + 0.2rem);
+  font-size: 2.4rem;
 }
 
 .c0 p {

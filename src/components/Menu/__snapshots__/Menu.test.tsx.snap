@@ -10,7 +10,7 @@ exports[`<Menu /> should match snapshot 1`] = `
   height: 3rem;
   top: 2.4rem;
   color: #FFFFFF;
-  left: 0.5rem;
+  left: 0rem;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -19,6 +19,10 @@ exports[`<Menu /> should match snapshot 1`] = `
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
+}
+
+@media (max-width:768px) {
+
 }
 
 <a

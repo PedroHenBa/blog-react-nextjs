@@ -13,7 +13,15 @@ export const Container = styled.header`
     margin: 0 auto;
 
     ${HeadingStyles} {
-      margin: 0 0 6px;
+      margin: 0 0 calc(${theme.spacing.small} - 1rem);
+    }
+
+    @media ${theme.media.lteSmall} {
+      display: flex;
+      flex-flow: column wrap;
+      & > ${HeadingStyles} {
+        margin: 0 0 ${theme.spacing.medium} 0;
+      }
     }
   `}
 `;
@@ -23,5 +31,9 @@ export const TextContainer = styled.div`
     flex-flow: row wrap;
     margin-left: ${theme.spacing.medium};
     max-width: 44rem;
+
+    @media ${theme.media.lteSmall} {
+      margin-left: 0;
+    }
   `}
 `;

@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    font-size: calc(${theme.fonts.sizes.medium} + 0.2rem);
+    font-size: ${theme.fonts.sizes.medium};
 
     p {
       margin: ${theme.spacing.big} 0;

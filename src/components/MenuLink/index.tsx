@@ -22,6 +22,7 @@ export const MenuLink = ({ text, link, newTab = false }: MenuLinkProps) => {
 };
 
 export type MenuLinkProps = {
+  id: string;
   text: ReactNode;
   newTab?: boolean;
   link: string;

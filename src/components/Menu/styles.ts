@@ -14,7 +14,7 @@ const styledMenuIcon = (theme: DefaultTheme, isMenuOpen: MenuOpen['isMenuOpen'])
   } else {
     return css`
       color: ${theme.colors.white};
-      left: 0.5rem;
+      left: 0rem;
     `;
   }
 };
@@ -34,6 +34,10 @@ export const Container = styled.div<MenuOpen>`
     left: ${isMenuOpen ? 0 : '-31rem'};
     overflow-y: ${isMenuOpen ? 'auto' : 'hidden'};
     transition: all 300ms ease-in-out;
+
+    @media ${theme.media.lteMedium} {
+      left: ${isMenuOpen ? 0 : '-32rem'};
+    }
   `}
 `;
 

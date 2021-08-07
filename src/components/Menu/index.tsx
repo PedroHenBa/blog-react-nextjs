@@ -1,5 +1,5 @@
 import * as Styled from './styles';
-import { LogoLink, LogoLinkProps } from '../LogoLink';
+import { LogoLink } from '../LogoLink';
 import { MenuLink, MenuLinkProps } from '../MenuLink';
 import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
 import { Close as MenuClosed } from '@styled-icons/material-outlined/Close';
@@ -32,7 +32,7 @@ export const Menu = ({ links = [], blogName, logo }: MenuProps) => {
 
         <Styled.NavLinks>
           {links.map((link) => (
-            <MenuLink key={`menu-links-${link.id}`} text={link.text} link={link.link} />
+            <MenuLink key={`menu-links-${link.id}`} text={link.text} link={link.link} id={link.id} />
           ))}
         </Styled.NavLinks>
       </Styled.Container>
@@ -46,4 +46,4 @@ export type MenuProps = {
   logo: string;
   blogName: string;
   links?: MenuPropsLinks;
-} & LogoLinkProps;
+};

@@ -6,7 +6,7 @@ import { ArticleMeta, ArticleMetaProps } from '../ArticleMeta';
 export const ArticleHeader = ({ title, excerpt, cover, author, categories, createdAt }: ArticleHeaderProps) => {
   return (
     <Styled.Container>
-      <Heading as="h1" size="huge">
+      <Heading as="h1" size="big">
         {title}
       </Heading>
       <Styled.Excerpt>{excerpt}</Styled.Excerpt>
