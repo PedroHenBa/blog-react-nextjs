@@ -1,8 +1,18 @@
 import mockSettings from '../Base/mock';
 import { PostsTemplateProps } from './index';
+import { LoadPostsVariables } from '../../api/load-posts';
+
+const defaultLoadPostsVariables: LoadPostsVariables = {
+  sort: 'createdAt:desc',
+  start: 0,
+  limit: 1,
+};
 
 export default {
   settings: mockSettings.settings,
+  variables: {
+    ...defaultLoadPostsVariables,
+  },
   posts: [
     {
       id: '6106c788631c9f05f0951ad8',

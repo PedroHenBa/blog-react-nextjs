@@ -14,6 +14,11 @@ export const Button = styled.button`
       transform: translateY(-1px);
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
+
+    &:disabled {
+      background: ${theme.colors.darkText};
+      color: ${theme.colors.white};
+    }
   `}
 `;
 

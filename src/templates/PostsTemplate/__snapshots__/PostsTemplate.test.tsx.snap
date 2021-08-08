@@ -368,6 +368,11 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
+.c18:disabled {
+  background: #333333;
+  color: #FFFFFF;
+}
+
 .c17 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -550,7 +555,7 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
       <button
         class="c18"
       >
-        Load more posts
+        Carregar mais posts
       </button>
     </div>
   </div>
@@ -988,6 +993,11 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
+.c19:disabled {
+  background: #333333;
+  color: #FFFFFF;
+}
+
 .c18 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1220,7 +1230,7 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
       <button
         class="c19"
       >
-        Load more posts
+        Carregar mais posts
       </button>
     </div>
   </div>
