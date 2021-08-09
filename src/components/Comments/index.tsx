@@ -10,7 +10,12 @@ export const Comments = ({ id, slug, title, allowComments }: CommentsProps) => {
     <Styled.Container>
       <DiscussionEmbed
         shortname="blog-ph"
-        config={{ url: `/post/${slug}`, identifier: id, title: title, language: 'pt_BR' }}
+        config={{
+          url: `https://blog-react-nextjs.vercel.app/post/${slug}/`,
+          identifier: id,
+          title: title,
+          language: 'pt_BR',
+        }}
       />
     </Styled.Container>
   );
