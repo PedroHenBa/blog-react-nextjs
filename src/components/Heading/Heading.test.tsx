@@ -1,8 +1,8 @@
 import { renderTheme } from '../../styles/render-theme';
 import { Heading } from './index';
 import { theme } from '../../styles/theme';
-import { ThemeProvider } from 'styled-components';
 import { screen } from '@testing-library/react';
+import { BlogThemeProvider } from '../../contexts/BlogThemeContext';
 
 describe('<Heading />', () => {
   it('should render with default values', () => {
@@ -31,9 +31,9 @@ describe('<Heading />', () => {
     });
 
     rerender(
-      <ThemeProvider theme={theme}>
+      <BlogThemeProvider>
         <Heading size="medium">text</Heading>);
-      </ThemeProvider>,
+      </BlogThemeProvider>,
     );
 
     expect(heading).toHaveStyle({
@@ -41,9 +41,9 @@ describe('<Heading />', () => {
     });
 
     rerender(
-      <ThemeProvider theme={theme}>
+      <BlogThemeProvider>
         <Heading size="big">text</Heading>);
-      </ThemeProvider>,
+      </BlogThemeProvider>,
     );
 
     expect(heading).toHaveStyle({
@@ -51,9 +51,9 @@ describe('<Heading />', () => {
     });
 
     rerender(
-      <ThemeProvider theme={theme}>
+      <BlogThemeProvider>
         <Heading size="huge">text</Heading>);
-      </ThemeProvider>,
+      </BlogThemeProvider>,
     );
 
     expect(heading).toHaveStyle({

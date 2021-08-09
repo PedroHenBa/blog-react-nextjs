@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleTheme /> should match snapshot 1`] = `
+.c0 {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 2;
+}
+
+.c1 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.c2 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.c2:checked + span {
+  background-color: #dc143c;
+}
+
+.c2:focus + span {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.c2:checked + span:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.c3 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.c3:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.c3 {
+  border-radius: 34px;
+}
+
+.c3:before {
+  border-radius: 50%;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+  >
+    <input
+      class="c2"
+      type="checkbox"
+      value="Dark mode active"
+    />
+    <span
+      class="c3"
+    />
+  </label>
+</div>
+`;

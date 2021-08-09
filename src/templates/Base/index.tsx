@@ -5,10 +5,12 @@ import { Menu } from '../../components/Menu';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
+import { ToggleTheme } from '../../components/ToggleTheme';
 
 export const BaseTemplate = ({ children, settings }: BaseTemplateProps) => {
   return (
     <Styled.Container>
+      <ToggleTheme />
       <Menu links={settings.menuLink} blogName={settings.blogName} logo={settings.logo.url} />
 
       <Styled.HeaderContainer>
