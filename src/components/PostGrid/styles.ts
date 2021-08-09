@@ -1,7 +1,13 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
+  ${({ theme }) => css`
+    width: 100%;
+    margin-left: 0.5rem;
+    @media ${theme.media.lteMedium} {
+      margin-left: 0;
+    }
+  `}
 `;
 
 export const NotFound = styled.p`
@@ -25,5 +31,24 @@ export const Grid = styled.div`
       grid-template-columns: 1fr;
       padding: ${theme.spacing.small};
     }
+  `}
+`;
+
+export const SearchContainer = styled.div`
+  ${({ theme }) => css`
+    margin-left: calc(${theme.spacing.big} - 0.2rem);
+  `}
+`;
+
+export const SearchInput = styled.input`
+  ${({ theme }) => css`
+    width: 25rem;
+    border: 0;
+    border-bottom: 2px solid ${theme.colors.primary};
+    outline: none;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+    padding: 0 0.7rem;
+    font-size: ${theme.fonts.sizes.small};
   `}
 `;

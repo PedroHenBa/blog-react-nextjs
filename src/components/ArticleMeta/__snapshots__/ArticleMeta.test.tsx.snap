@@ -7,6 +7,10 @@ exports[`<ArticleMeta /> should match snapshot 1`] = `
   font-style: italic;
 }
 
+.c0 .categories span:first-child::before {
+  content: ' ';
+}
+
 .c0 .categories span::after {
   content: ', ';
 }
@@ -83,6 +87,10 @@ exports[`<ArticleMeta /> should match snapshot with no author and categories 1`]
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
+}
+
+.c0 .categories span:first-child::before {
+  content: ' ';
 }
 
 .c0 .categories span::after {

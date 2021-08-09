@@ -371,6 +371,10 @@ exports[`<PostTemplate /> should match snapshot  1`] = `
   font-style: italic;
 }
 
+.c19 .categories span:first-child::before {
+  content: ' ';
+}
+
 .c19 .categories span::after {
   content: ', ';
 }

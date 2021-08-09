@@ -24,7 +24,7 @@ export type StrapiPostAndSettings = {
 export const defaultLoadPostsVariables: LoadPostsVariables = {
   sort: 'createdAt:desc',
   start: 0,
-  limit: 1,
+  limit: 2,
 };
 
 export async function loadPosts(variables: LoadPostsVariables = {}): Promise<StrapiPostAndSettings> {

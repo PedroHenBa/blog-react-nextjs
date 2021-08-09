@@ -8,7 +8,7 @@ export const ArticleMeta = ({ createdAt, author = undefined, categories = [] }: 
   return (
     <Styled.Container>
       <p>
-        {typeof author !== 'undefined' && (
+        {typeof author !== 'undefined' && author && (
           <>
             <span>Por </span>
             <Link href={`/author/${author.slug}`}>
@@ -19,7 +19,8 @@ export const ArticleMeta = ({ createdAt, author = undefined, categories = [] }: 
         )}
 
         <time dateTime={createdAt}>em {formatDate(createdAt)}</time>
-        {categories.length > 0 && (
+
+        {categories && categories.length > 0 && (
           <>
             <span className="separator">|</span>
             <span className="categories">

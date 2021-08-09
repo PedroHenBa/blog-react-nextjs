@@ -36,6 +36,10 @@ exports[`<ArticleHeader /> should render ArticleHeader component 1`] = `
   font-style: italic;
 }
 
+.c5 .categories span:first-child::before {
+  content: ' ';
+}
+
 .c5 .categories span::after {
   content: ', ';
 }

@@ -6,6 +6,10 @@ export const Container = styled.div`
     color: ${theme.colors.darkGray};
     font-style: italic;
 
+    .categories span:first-child::before {
+      content: ' ';
+    }
+
     .categories span::after {
       content: ', ';
     }
