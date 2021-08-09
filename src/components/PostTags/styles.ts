@@ -3,6 +3,10 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   ${({ theme }) => css`
     margin: ${theme.spacing.medium} 0;
+    max-width: ${theme.sizes.content};
+    width: 100%;
+    margin: ${theme.spacing.big} auto;
+    padding: 0 ${theme.spacing.big};
 
     span {
       margin: 0 0 0 0.5rem;

@@ -48,7 +48,7 @@ export const SearchInput = styled.input`
     outline: none;
     transition: 0.2s ease-in-out;
     box-sizing: border-box;
-    padding: 0 0.7rem;
+    padding: 0.3rem 0.7rem;
     font-size: ${theme.fonts.sizes.small};
   `}
 `;
