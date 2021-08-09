@@ -27,7 +27,7 @@ exports[`<PostGrid /> should match snapshot 1`] = `
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   box-sizing: border-box;
-  padding: 0 0.7rem;
+  padding: 0.3rem 0.7rem;
   font-size: 1.6rem;
 }
 
