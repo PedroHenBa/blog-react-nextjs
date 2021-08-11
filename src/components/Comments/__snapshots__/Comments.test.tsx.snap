@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Comments /> should match snapshot with area for comments 1`] = `
+.c0 {
+  max-width: 80rem;
+  width: 100%;
+  margin: 3.2rem auto;
+  padding: 0 3.2rem;
+  color: #333333;
+}
+
+<div
+  class="c0"
+>
+  <div
+    id="disqus_thread"
+  />
+</div>
+`;

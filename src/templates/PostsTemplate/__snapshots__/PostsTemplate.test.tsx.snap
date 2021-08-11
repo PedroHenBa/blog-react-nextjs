@@ -407,7 +407,7 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
   margin-left: 0.5rem;
 }
 
-.c19 {
+.c21 {
   padding: 3.2rem;
   text-align: center;
   font-size: 1.6rem;
@@ -422,11 +422,16 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
   padding: 2.4rem;
 }
 
-.c20 {
+.c19 {
   margin-left: calc(3.2rem - 0.2rem);
 }
 
-.c21 {
+.c19 > svg {
+  width: 2.4rem;
+  margin-left: 1rem;
+}
+
+.c20 {
   width: 25rem;
   border: 0;
   border-bottom: 2px solid #000000;
@@ -615,27 +620,39 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
     <div
       class="c18"
     >
-      <p
+      <div
         class="c19"
+      >
+        <input
+          class="c20"
+          name="q"
+          placeholder="Pesquise"
+          type="search"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          aria-label="Input enabled"
+          class="c5"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+          />
+        </svg>
+      </div>
+      <p
+        class="c21"
       >
         Nenhum post encontrado aqui
       </p>
-      <form
-        action="/search/"
-        method="GET"
-      >
-        <div
-          class="c20"
-        >
-          <input
-            class="c21"
-            name="q"
-            placeholder="Pesquise"
-            type="search"
-            value=""
-          />
-        </div>
-      </form>
       <div
         class="c22"
       />
@@ -1103,6 +1120,11 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
   margin-left: calc(3.2rem - 0.2rem);
 }
 
+.c19 > svg {
+  width: 2.4rem;
+  margin-left: 1rem;
+}
+
 .c20 {
   width: 25rem;
   border: 0;
@@ -1357,22 +1379,34 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
     <div
       class="c18"
     >
-      <form
-        action="/search/"
-        method="GET"
+      <div
+        class="c19"
       >
-        <div
-          class="c19"
+        <input
+          class="c20"
+          name="q"
+          placeholder="Pesquise"
+          type="search"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          aria-label="Input enabled"
+          class="c5"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <input
-            class="c20"
-            name="q"
-            placeholder="Pesquise"
-            type="search"
-            value=""
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
           />
-        </div>
-      </form>
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+          />
+        </svg>
+      </div>
       <div
         class="c21"
       >

@@ -6,7 +6,7 @@ exports[`<PostGrid /> should match snapshot 1`] = `
   margin-left: 0.5rem;
 }
 
-.c3 {
+.c4 {
   margin: 0 auto;
   max-width: 120rem;
   display: grid;
@@ -17,6 +17,11 @@ exports[`<PostGrid /> should match snapshot 1`] = `
 
 .c1 {
   margin-left: calc(3.2rem - 0.2rem);
+}
+
+.c1 > svg {
+  width: 2.4rem;
+  margin-left: 1rem;
 }
 
 .c2 {
@@ -31,20 +36,20 @@ exports[`<PostGrid /> should match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
-.c7 {
+.c8 {
   color: #000000;
   line-height: 1.2;
   font-size: 2.4rem;
   text-transform: none;
 }
 
-.c4 .c6 {
+.c5 .c7 {
   margin: 0;
   margin-top: calc(1.6rem - 0.6rem);
   margin-bottom: 1.6rem;
 }
 
-.c4 a {
+.c5 a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -52,21 +57,27 @@ exports[`<PostGrid /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c4:hover a {
+.c5:hover a {
   color: #dc143c;
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
 }
 
-.c4:hover img {
+.c5:hover img {
   -webkit-filter: blur(1px) brightness(100%);
   filter: blur(1px) brightness(100%);
 }
 
-.c5 {
+.c6 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
+}
+
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
 @media (max-width:768px) {
@@ -76,7 +87,7 @@ exports[`<PostGrid /> should match snapshot 1`] = `
 }
 
 @media (max-width:360px) {
-  .c3 {
+  .c4 {
     grid-template-columns: 1fr;
     padding: 1.6rem;
   }
@@ -85,39 +96,51 @@ exports[`<PostGrid /> should match snapshot 1`] = `
 <div
   class="c0"
 >
-  <form
-    action="/search/"
-    method="GET"
-  >
-    <div
-      class="c1"
-    >
-      <input
-        class="c2"
-        name="q"
-        placeholder="Pesquise"
-        type="search"
-        value=""
-      />
-    </div>
-  </form>
   <div
-    class="c3"
+    class="c1"
+  >
+    <input
+      class="c2"
+      name="q"
+      placeholder="Pesquise"
+      type="search"
+      value=""
+    />
+    <svg
+      aria-hidden="true"
+      aria-label="Input enabled"
+      class="c3"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+      />
+    </svg>
+  </div>
+  <div
+    class="c4"
   >
     <div
-      class="c4"
+      class="c5"
     >
       <a
         href="/post/qualquer-coisa"
       >
         <img
           alt="Qualquer Coisa"
-          class="c5"
+          class="c6"
           src="https://res.cloudinary.com/djve6xgfe/image/upload/v1627833918/na_14eb8ec6d4.jpg"
         />
       </a>
       <h2
-        class="c6 c7"
+        class="c7 c8"
       >
         <a
           href="/post/qualquer-coisa"
@@ -132,19 +155,19 @@ exports[`<PostGrid /> should match snapshot 1`] = `
       </p>
     </div>
     <div
-      class="c4"
+      class="c5"
     >
       <a
         href="/post/qualquer-coisa"
       >
         <img
           alt="Qualquer Coisa"
-          class="c5"
+          class="c6"
           src="https://res.cloudinary.com/djve6xgfe/image/upload/v1627833918/na_14eb8ec6d4.jpg"
         />
       </a>
       <h2
-        class="c6 c7"
+        class="c7 c8"
       >
         <a
           href="/post/qualquer-coisa"
@@ -159,19 +182,19 @@ exports[`<PostGrid /> should match snapshot 1`] = `
       </p>
     </div>
     <div
-      class="c4"
+      class="c5"
     >
       <a
         href="/post/qualquer-coisa"
       >
         <img
           alt="Qualquer Coisa"
-          class="c5"
+          class="c6"
           src="https://res.cloudinary.com/djve6xgfe/image/upload/v1627833918/na_14eb8ec6d4.jpg"
         />
       </a>
       <h2
-        class="c6 c7"
+        class="c7 c8"
       >
         <a
           href="/post/qualquer-coisa"
@@ -186,19 +209,19 @@ exports[`<PostGrid /> should match snapshot 1`] = `
       </p>
     </div>
     <div
-      class="c4"
+      class="c5"
     >
       <a
         href="/post/qualquer-coisa"
       >
         <img
           alt="Qualquer Coisa"
-          class="c5"
+          class="c6"
           src="https://res.cloudinary.com/djve6xgfe/image/upload/v1627833918/na_14eb8ec6d4.jpg"
         />
       </a>
       <h2
-        class="c6 c7"
+        class="c7 c8"
       >
         <a
           href="/post/qualquer-coisa"

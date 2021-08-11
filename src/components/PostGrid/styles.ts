@@ -37,6 +37,11 @@ export const Grid = styled.div`
 export const SearchContainer = styled.div`
   ${({ theme }) => css`
     margin-left: calc(${theme.spacing.big} - 0.2rem);
+
+    > svg {
+      width: 2.4rem;
+      margin-left: 1rem;
+    }
   `}
 `;
 

@@ -3,14 +3,23 @@ import { PostStrapi } from '../../shared-types/post-strapi';
 import { BaseTemplate } from '../Base';
 import { PostGrid } from '../../components/PostGrid';
 import * as Styled from './styles';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { loadPosts, LoadPostsVariables } from '../../api/load-posts';
 
 export const PostsTemplate = ({ settings, posts = [], variables }: PostsTemplateProps) => {
+  console.log(posts);
   const [statePosts, setStatePosts] = useState(posts);
+  console.log(statePosts);
   const [stateVariables, setStateVariables] = useState(variables);
   const [buttonDisabled, setButtonDisabled] = useState(false);
   const [noMorePosts, setNoMorePosts] = useState(false);
+
+  useEffect(() => {
+    setStatePosts(posts);
+    setNoMorePosts(false);
+    setButtonDisabled(false);
+    setStateVariables(variables);
+  }, [posts, variables]);
 
   const handleMorePosts = async () => {
     setButtonDisabled(true);
