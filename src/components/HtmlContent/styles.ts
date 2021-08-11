@@ -19,30 +19,30 @@ export const Container = styled.div`
       filter: brightness(70%);
     }
 
-    code {
-      font-family: monospace;
-      color: ${theme.colors.secondary};
-      font-size: ${theme.fonts.sizes.small};
-      background: ${theme.colors.mediumGray};
-      padding: 0.2rem;
-      margin: 0.2rem;
-    }
-
-    pre {
-      background: ${theme.colors.primary};
-      padding: ${theme.spacing.medium};
-      color: ${theme.colors.white};
-      font-family: monospace;
-      margin: ${theme.spacing.medium} 0;
-      width: 100%;
-      overflow-x: auto;
-      font-size: ${theme.fonts.sizes.small};
-    }
-
-    pre code {
-      color: inherit;
-      background: inherit;
-    }
+    // code {
+    //   font-family: monospace;
+    //   color: ${theme.colors.secondary};
+    //   font-size: ${theme.fonts.sizes.small};
+    //   background: ${theme.colors.mediumGray};
+    //   padding: 0.2rem;
+    //   margin: 0.2rem;
+    // }
+    //
+    // pre {
+    //   background: ${theme.colors.primary};
+    //   padding: ${theme.spacing.medium};
+    //   color: ${theme.colors.white};
+    //   font-family: monospace;
+    //   margin: ${theme.spacing.medium} 0;
+    //   width: 100%;
+    //   overflow-x: auto;
+    //   font-size: ${theme.fonts.sizes.small};
+    // }
+    //
+    // pre code {
+    //   color: inherit;
+    //   background: inherit;
+    // }
 
     img {
       max-width: 100%;

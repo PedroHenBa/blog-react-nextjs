@@ -166,125 +166,100 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
   max-width: 44rem;
 }
 
-.c26 {
+.c27 {
   font-size: 2.4rem;
 }
 
-.c26 p {
+.c27 p {
   margin: 3.2rem 0;
 }
 
-.c26 a,
-.c26 a:visited,
-.c26 a:link {
+.c27 a,
+.c27 a:visited,
+.c27 a:link {
   color: #dc143c;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
 
-.c26 a:hover {
+.c27 a:hover {
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
 }
 
-.c26 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c26 pre {
-  background: #000000;
-  padding: 2.4rem;
-  color: #FFFFFF;
-  font-family: monospace;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c26 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c26 img {
+.c27 img {
   max-width: 100%;
 }
 
-.c26 .image {
+.c27 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c26 .image figcaption {
+.c27 .image figcaption {
   padding: 1.6rem;
   text-align: center;
   font-size: 1.6rem;
   line-height: 1.3;
 }
 
-.c26 .image-style-side {
+.c27 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c26 ul,
-.c26 ol {
+.c27 ul,
+.c27 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c26 hr {
+.c27 hr {
   border: none;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c26 .table {
+.c27 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c26 table {
+.c27 table {
   border-collapse: collapse;
   border: 1px solid #eee;
   border-bottom: 2px solid #00cccc;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1),0px 10px 20px rgba(0,0,0,0.05),0px 20px 20px rgba(0,0,0,0.05),0px 30px 20px rgba(0,0,0,0.05);
 }
 
-.c26 table tr:hover {
+.c27 table tr:hover {
   background: #f4f4f4;
 }
 
-.c26 table tr:hover td {
+.c27 table tr:hover td {
   color: #555;
 }
 
-.c26 table th,
-.c26 table td {
+.c27 table th,
+.c27 table td {
   color: #999;
   border: 1px solid #eee;
   padding: 12px 35px;
   border-collapse: collapse;
 }
 
-.c26 table th {
+.c27 table th {
   background: #00cccc;
   color: #fff;
   text-transform: uppercase;
 }
 
-.c26 table th.last {
+.c27 table th.last {
   border-right: none;
 }
 
-.c26 blockquote {
+.c27 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -305,11 +280,289 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
   text-decoration: none;
 }
 
-.c24 .c25 {
+.c24 .c26 {
   font-size: 1.6rem;
 }
 
-.c27 {
+.c25 pre[class*="language-"],
+.c25 code[class*="language-"] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,"Andale Mono","Ubuntu Mono","Courier New",monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c25 pre[class*="language-"]::selection,
+.c25 code[class*="language-"]::selection,
+.c25 pre[class*="language-"] *::selection,
+.c25 code[class*="language-"] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c25 pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c25:not(pre) > code[class*="language-"] {
+  padding: .1em .3em;
+  border-radius: .3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c25 .namespace {
+  opacity: .7;
+}
+
+.c25 .token.doctype .token.doctype-tag {
+  color: #569CD6;
+}
+
+.c25 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c25 .token.comment,
+.c25 .token.prolog {
+  color: #6a9955;
+}
+
+.c25 .token.punctuation,
+.c25 .language-html .language-css .token.punctuation,
+.c25 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c25 .token.property,
+.c25 .token.tag,
+.c25 .token.boolean,
+.c25 .token.number,
+.c25 .token.constant,
+.c25 .token.symbol,
+.c25 .token.inserted,
+.c25 .token.unit {
+  color: #b5cea8;
+}
+
+.c25 .token.selector,
+.c25 .token.attr-name,
+.c25 .token.string,
+.c25 .token.char,
+.c25 .token.builtin,
+.c25 .token.deleted {
+  color: #ce9178;
+}
+
+.c25 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c25 .token.operator,
+.c25 .token.entity {
+  color: #d4d4d4;
+}
+
+.c25 .token.operator.arrow {
+  color: #569CD6;
+}
+
+.c25 .token.atrule {
+  color: #ce9178;
+}
+
+.c25 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c25 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c25 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c25 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c25 .token.keyword {
+  color: #569CD6;
+}
+
+.c25 .token.keyword.module,
+.c25 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c25 .token.function,
+.c25 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c25 .token.regex {
+  color: #d16969;
+}
+
+.c25 .token.important {
+  color: #569cd6;
+}
+
+.c25 .token.italic {
+  font-style: italic;
+}
+
+.c25 .token.constant {
+  color: #9cdcfe;
+}
+
+.c25 .token.class-name,
+.c25 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c25 .token.console {
+  color: #9cdcfe;
+}
+
+.c25 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c25 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c25 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c25 .token.boolean {
+  color: #569cd6;
+}
+
+.c25 .token.property,
+.c25 .token.variable,
+.c25 .token.imports .token.maybe-class-name,
+.c25 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c25 .token.selector {
+  color: #d7ba7d;
+}
+
+.c25 .token.escape {
+  color: #d7ba7d;
+}
+
+.c25 .token.tag {
+  color: #569cd6;
+}
+
+.c25 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c25 .token.cdata {
+  color: #808080;
+}
+
+.c25 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c25 .token.attr-value,
+.c25 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c25 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c25 .token.entity {
+  color: #569cd6;
+}
+
+.c25 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c25 pre[class*="language-javascript"],
+.c25 code[class*="language-javascript"],
+.c25 pre[class*="language-jsx"],
+.c25 code[class*="language-jsx"],
+.c25 pre[class*="language-typescript"],
+.c25 code[class*="language-typescript"],
+.c25 pre[class*="language-tsx"],
+.c25 code[class*="language-tsx"] {
+  color: #9cdcfe;
+}
+
+.c25 pre[class*="language-css"],
+.c25 code[class*="language-css"] {
+  color: #ce9178;
+}
+
+.c25 pre[class*="language-html"],
+.c25 code[class*="language-html"] {
+  color: #d4d4d4;
+}
+
+.c25 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c25 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c25 pre[data-line] {
+  position: relative;
+}
+
+.c25 pre[class*="language-"] > code[class*="language-"] {
+  position: relative;
+  z-index: 1;
+}
+
+.c25 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c28 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -472,14 +725,21 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c26 {
+  .c27 {
     font-size: 2rem;
   }
 
-  .c26 .image-style-side {
+  .c27 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media print {
+  .c25 pre[class*="language-"],
+  .c25 code[class*="language-"] {
+    text-shadow: none;
   }
 }
 
@@ -666,17 +926,22 @@ exports[`<PostsTemplate /> should match snapshot with no posts 1`] = `
       class="c24"
     >
       <div
-        class="c25 c26"
+        class="c25"
       >
-        <p>
-          Feito com carinho, ph
-        </p>
+        <div
+          class="c26 c27"
+        >
+          <p>
+            Feito com carinho, ph
+          </p>
+        </div>
+        ;
       </div>
     </footer>
   </div>
   <a
     aria-label="Go to top"
-    class="c27"
+    class="c28"
     href="#"
     title="Go to top"
   >
@@ -866,125 +1131,100 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
   max-width: 44rem;
 }
 
-.c29 {
+.c30 {
   font-size: 2.4rem;
 }
 
-.c29 p {
+.c30 p {
   margin: 3.2rem 0;
 }
 
-.c29 a,
-.c29 a:visited,
-.c29 a:link {
+.c30 a,
+.c30 a:visited,
+.c30 a:link {
   color: #dc143c;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
 
-.c29 a:hover {
+.c30 a:hover {
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
 }
 
-.c29 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c29 pre {
-  background: #000000;
-  padding: 2.4rem;
-  color: #FFFFFF;
-  font-family: monospace;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c29 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c29 img {
+.c30 img {
   max-width: 100%;
 }
 
-.c29 .image {
+.c30 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c29 .image figcaption {
+.c30 .image figcaption {
   padding: 1.6rem;
   text-align: center;
   font-size: 1.6rem;
   line-height: 1.3;
 }
 
-.c29 .image-style-side {
+.c30 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c29 ul,
-.c29 ol {
+.c30 ul,
+.c30 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c29 hr {
+.c30 hr {
   border: none;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c29 .table {
+.c30 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c29 table {
+.c30 table {
   border-collapse: collapse;
   border: 1px solid #eee;
   border-bottom: 2px solid #00cccc;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1),0px 10px 20px rgba(0,0,0,0.05),0px 20px 20px rgba(0,0,0,0.05),0px 30px 20px rgba(0,0,0,0.05);
 }
 
-.c29 table tr:hover {
+.c30 table tr:hover {
   background: #f4f4f4;
 }
 
-.c29 table tr:hover td {
+.c30 table tr:hover td {
   color: #555;
 }
 
-.c29 table th,
-.c29 table td {
+.c30 table th,
+.c30 table td {
   color: #999;
   border: 1px solid #eee;
   padding: 12px 35px;
   border-collapse: collapse;
 }
 
-.c29 table th {
+.c30 table th {
   background: #00cccc;
   color: #fff;
   text-transform: uppercase;
 }
 
-.c29 table th.last {
+.c30 table th.last {
   border-right: none;
 }
 
-.c29 blockquote {
+.c30 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -1005,11 +1245,289 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
   text-decoration: none;
 }
 
-.c27 .c28 {
+.c27 .c29 {
   font-size: 1.6rem;
 }
 
-.c30 {
+.c28 pre[class*="language-"],
+.c28 code[class*="language-"] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,"Andale Mono","Ubuntu Mono","Courier New",monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c28 pre[class*="language-"]::selection,
+.c28 code[class*="language-"]::selection,
+.c28 pre[class*="language-"] *::selection,
+.c28 code[class*="language-"] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c28 pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c28:not(pre) > code[class*="language-"] {
+  padding: .1em .3em;
+  border-radius: .3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c28 .namespace {
+  opacity: .7;
+}
+
+.c28 .token.doctype .token.doctype-tag {
+  color: #569CD6;
+}
+
+.c28 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c28 .token.comment,
+.c28 .token.prolog {
+  color: #6a9955;
+}
+
+.c28 .token.punctuation,
+.c28 .language-html .language-css .token.punctuation,
+.c28 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c28 .token.property,
+.c28 .token.tag,
+.c28 .token.boolean,
+.c28 .token.number,
+.c28 .token.constant,
+.c28 .token.symbol,
+.c28 .token.inserted,
+.c28 .token.unit {
+  color: #b5cea8;
+}
+
+.c28 .token.selector,
+.c28 .token.attr-name,
+.c28 .token.string,
+.c28 .token.char,
+.c28 .token.builtin,
+.c28 .token.deleted {
+  color: #ce9178;
+}
+
+.c28 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c28 .token.operator,
+.c28 .token.entity {
+  color: #d4d4d4;
+}
+
+.c28 .token.operator.arrow {
+  color: #569CD6;
+}
+
+.c28 .token.atrule {
+  color: #ce9178;
+}
+
+.c28 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c28 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c28 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c28 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c28 .token.keyword {
+  color: #569CD6;
+}
+
+.c28 .token.keyword.module,
+.c28 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c28 .token.function,
+.c28 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c28 .token.regex {
+  color: #d16969;
+}
+
+.c28 .token.important {
+  color: #569cd6;
+}
+
+.c28 .token.italic {
+  font-style: italic;
+}
+
+.c28 .token.constant {
+  color: #9cdcfe;
+}
+
+.c28 .token.class-name,
+.c28 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c28 .token.console {
+  color: #9cdcfe;
+}
+
+.c28 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c28 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c28 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c28 .token.boolean {
+  color: #569cd6;
+}
+
+.c28 .token.property,
+.c28 .token.variable,
+.c28 .token.imports .token.maybe-class-name,
+.c28 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c28 .token.selector {
+  color: #d7ba7d;
+}
+
+.c28 .token.escape {
+  color: #d7ba7d;
+}
+
+.c28 .token.tag {
+  color: #569cd6;
+}
+
+.c28 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c28 .token.cdata {
+  color: #808080;
+}
+
+.c28 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c28 .token.attr-value,
+.c28 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c28 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c28 .token.entity {
+  color: #569cd6;
+}
+
+.c28 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c28 pre[class*="language-javascript"],
+.c28 code[class*="language-javascript"],
+.c28 pre[class*="language-jsx"],
+.c28 code[class*="language-jsx"],
+.c28 pre[class*="language-typescript"],
+.c28 code[class*="language-typescript"],
+.c28 pre[class*="language-tsx"],
+.c28 code[class*="language-tsx"] {
+  color: #9cdcfe;
+}
+
+.c28 pre[class*="language-css"],
+.c28 code[class*="language-css"] {
+  color: #ce9178;
+}
+
+.c28 pre[class*="language-html"],
+.c28 code[class*="language-html"] {
+  color: #d4d4d4;
+}
+
+.c28 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c28 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c28 pre[data-line] {
+  position: relative;
+}
+
+.c28 pre[class*="language-"] > code[class*="language-"] {
+  position: relative;
+  z-index: 1;
+}
+
+.c28 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c31 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -1231,14 +1749,21 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c29 {
+  .c30 {
     font-size: 2rem;
   }
 
-  .c29 .image-style-side {
+  .c30 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media print {
+  .c28 pre[class*="language-"],
+  .c28 code[class*="language-"] {
+    text-shadow: none;
   }
 }
 
@@ -1483,17 +2008,22 @@ exports[`<PostsTemplate /> should match snapshot with posts 1`] = `
       class="c27"
     >
       <div
-        class="c28 c29"
+        class="c28"
       >
-        <p>
-          Feito com carinho, ph
-        </p>
+        <div
+          class="c29 c30"
+        >
+          <p>
+            Feito com carinho, ph
+          </p>
+        </div>
+        ;
       </div>
     </footer>
   </div>
   <a
     aria-label="Go to top"
-    class="c30"
+    class="c31"
     href="#"
     title="Go to top"
   >

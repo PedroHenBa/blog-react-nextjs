@@ -166,125 +166,100 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   max-width: 44rem;
 }
 
-.c21 {
+.c22 {
   font-size: 2.4rem;
 }
 
-.c21 p {
+.c22 p {
   margin: 3.2rem 0;
 }
 
-.c21 a,
-.c21 a:visited,
-.c21 a:link {
+.c22 a,
+.c22 a:visited,
+.c22 a:link {
   color: #dc143c;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
 
-.c21 a:hover {
+.c22 a:hover {
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
 }
 
-.c21 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c21 pre {
-  background: #000000;
-  padding: 2.4rem;
-  color: #FFFFFF;
-  font-family: monospace;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c21 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c21 img {
+.c22 img {
   max-width: 100%;
 }
 
-.c21 .image {
+.c22 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c21 .image figcaption {
+.c22 .image figcaption {
   padding: 1.6rem;
   text-align: center;
   font-size: 1.6rem;
   line-height: 1.3;
 }
 
-.c21 .image-style-side {
+.c22 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c21 ul,
-.c21 ol {
+.c22 ul,
+.c22 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c21 hr {
+.c22 hr {
   border: none;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c21 .table {
+.c22 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c21 table {
+.c22 table {
   border-collapse: collapse;
   border: 1px solid #eee;
   border-bottom: 2px solid #00cccc;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1),0px 10px 20px rgba(0,0,0,0.05),0px 20px 20px rgba(0,0,0,0.05),0px 30px 20px rgba(0,0,0,0.05);
 }
 
-.c21 table tr:hover {
+.c22 table tr:hover {
   background: #f4f4f4;
 }
 
-.c21 table tr:hover td {
+.c22 table tr:hover td {
   color: #555;
 }
 
-.c21 table th,
-.c21 table td {
+.c22 table th,
+.c22 table td {
   color: #999;
   border: 1px solid #eee;
   padding: 12px 35px;
   border-collapse: collapse;
 }
 
-.c21 table th {
+.c22 table th {
   background: #00cccc;
   color: #fff;
   text-transform: uppercase;
 }
 
-.c21 table th.last {
+.c22 table th.last {
   border-right: none;
 }
 
-.c21 blockquote {
+.c22 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -305,11 +280,289 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   text-decoration: none;
 }
 
-.c19 .c20 {
+.c19 .c21 {
   font-size: 1.6rem;
 }
 
-.c22 {
+.c20 pre[class*="language-"],
+.c20 code[class*="language-"] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,"Andale Mono","Ubuntu Mono","Courier New",monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c20 pre[class*="language-"]::selection,
+.c20 code[class*="language-"]::selection,
+.c20 pre[class*="language-"] *::selection,
+.c20 code[class*="language-"] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c20 pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c20:not(pre) > code[class*="language-"] {
+  padding: .1em .3em;
+  border-radius: .3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c20 .namespace {
+  opacity: .7;
+}
+
+.c20 .token.doctype .token.doctype-tag {
+  color: #569CD6;
+}
+
+.c20 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c20 .token.comment,
+.c20 .token.prolog {
+  color: #6a9955;
+}
+
+.c20 .token.punctuation,
+.c20 .language-html .language-css .token.punctuation,
+.c20 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c20 .token.property,
+.c20 .token.tag,
+.c20 .token.boolean,
+.c20 .token.number,
+.c20 .token.constant,
+.c20 .token.symbol,
+.c20 .token.inserted,
+.c20 .token.unit {
+  color: #b5cea8;
+}
+
+.c20 .token.selector,
+.c20 .token.attr-name,
+.c20 .token.string,
+.c20 .token.char,
+.c20 .token.builtin,
+.c20 .token.deleted {
+  color: #ce9178;
+}
+
+.c20 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c20 .token.operator,
+.c20 .token.entity {
+  color: #d4d4d4;
+}
+
+.c20 .token.operator.arrow {
+  color: #569CD6;
+}
+
+.c20 .token.atrule {
+  color: #ce9178;
+}
+
+.c20 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c20 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c20 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c20 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c20 .token.keyword {
+  color: #569CD6;
+}
+
+.c20 .token.keyword.module,
+.c20 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c20 .token.function,
+.c20 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c20 .token.regex {
+  color: #d16969;
+}
+
+.c20 .token.important {
+  color: #569cd6;
+}
+
+.c20 .token.italic {
+  font-style: italic;
+}
+
+.c20 .token.constant {
+  color: #9cdcfe;
+}
+
+.c20 .token.class-name,
+.c20 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c20 .token.console {
+  color: #9cdcfe;
+}
+
+.c20 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c20 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c20 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c20 .token.boolean {
+  color: #569cd6;
+}
+
+.c20 .token.property,
+.c20 .token.variable,
+.c20 .token.imports .token.maybe-class-name,
+.c20 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c20 .token.selector {
+  color: #d7ba7d;
+}
+
+.c20 .token.escape {
+  color: #d7ba7d;
+}
+
+.c20 .token.tag {
+  color: #569cd6;
+}
+
+.c20 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c20 .token.cdata {
+  color: #808080;
+}
+
+.c20 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c20 .token.attr-value,
+.c20 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c20 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c20 .token.entity {
+  color: #569cd6;
+}
+
+.c20 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c20 pre[class*="language-javascript"],
+.c20 code[class*="language-javascript"],
+.c20 pre[class*="language-jsx"],
+.c20 code[class*="language-jsx"],
+.c20 pre[class*="language-typescript"],
+.c20 code[class*="language-typescript"],
+.c20 pre[class*="language-tsx"],
+.c20 code[class*="language-tsx"] {
+  color: #9cdcfe;
+}
+
+.c20 pre[class*="language-css"],
+.c20 code[class*="language-css"] {
+  color: #ce9178;
+}
+
+.c20 pre[class*="language-html"],
+.c20 code[class*="language-html"] {
+  color: #d4d4d4;
+}
+
+.c20 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c20 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c20 pre[data-line] {
+  position: relative;
+}
+
+.c20 pre[class*="language-"] > code[class*="language-"] {
+  position: relative;
+  z-index: 1;
+}
+
+.c20 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c23 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -431,14 +684,21 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c22 {
     font-size: 2rem;
   }
 
-  .c21 .image-style-side {
+  .c22 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media print {
+  .c20 pre[class*="language-"],
+  .c20 code[class*="language-"] {
+    text-shadow: none;
   }
 }
 
@@ -572,17 +832,22 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
       class="c19"
     >
       <div
-        class="c20 c21"
+        class="c20"
       >
-        <p>
-          Feito com carinho, ph
-        </p>
+        <div
+          class="c21 c22"
+        >
+          <p>
+            Feito com carinho, ph
+          </p>
+        </div>
+        ;
       </div>
     </footer>
   </div>
   <a
     aria-label="Go to top"
-    class="c22"
+    class="c23"
     href="#"
     title="Go to top"
   >

@@ -7,9 +7,7 @@ import { useState, useEffect } from 'react';
 import { loadPosts, LoadPostsVariables } from '../../api/load-posts';
 
 export const PostsTemplate = ({ settings, posts = [], variables }: PostsTemplateProps) => {
-  console.log(posts);
   const [statePosts, setStatePosts] = useState(posts);
-  console.log(statePosts);
   const [stateVariables, setStateVariables] = useState(variables);
   const [buttonDisabled, setButtonDisabled] = useState(false);
   const [noMorePosts, setNoMorePosts] = useState(false);
