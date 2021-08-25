@@ -12,7 +12,7 @@ export const HtmlContent = ({ html }: HtmlContentProps) => {
 
   return (
     <PrismStyles>
-      <Styled.Container dangerouslySetInnerHTML={{ __html: html }} />;
+      <Styled.Container dangerouslySetInnerHTML={{ __html: html }} />
     </PrismStyles>
   );
 };
