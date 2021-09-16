@@ -1,16 +1,34 @@
 
-## Blog
+## Blog made with
 
-<h4 align="center"> 
-	🚧  Em desenvolvimento  🚧
-</h4>
+- NextJs
+- Styled-Components
+- TypeScript
+- Jest(tests)
+- storybook
+- disqus-react
+- prismjs
 
-### 🛠 Tecnologias
+<h1>installation</h1>
 
-As seguintes ferramentas foram usadas na construção do projeto:
+```bash
+git clone https://github.com/PedroHenBa/blog-react-nextjs.git
+```
+- Install dependencies
 
-- [storybook](https://storybook.js.org/)
-- [styled-components](https://styled-components.com/)
-- [React](https://pt-br.reactjs.org/)
-- [NextJs](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+```bash
+npm install
+```
+
+<h1>Getting start</h1>
+
+you can start the server using:
+
+```bash
+npm run dev
+```
+
+<h1>Customize</h1>
+
+if you want to use your own api, you can change the url in src/config/index.ts
+
